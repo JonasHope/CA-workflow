@@ -10,6 +10,8 @@
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
     "format": "prettier -w src/**/*.js",
+    "run": "npm run e2e",
+    "e2e": "cypress open",
     "prepare": "husky install"
   },
   "keywords": [],
