@@ -10,7 +10,7 @@
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
     "format": "prettier -w src/**/*.js",
-    "run-unit-test": "npm run unit-test && npm run e2e-test",
+    "test": "npm run unit-test && npm run e2e-test",
     "unit-test": "jest",
     "open-cypress": "cypress open",
     "e2e-test": "cypress run",
