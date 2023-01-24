@@ -3,6 +3,8 @@
 https://jonashope.github.io/CA-workflow/
 
 [![e2e testing](https://github.com/JonasHope/CA-workflow/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/JonasHope/CA-workflow/actions/workflows/e2e-test.yml)
+[![e2e testing](https://github.com/JonasHope/CA-workflow/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/JonasHope/CA-workflow/actions/workflows/e2e-test.yml)
+[![Deploy static content to Pages](https://github.com/JonasHope/CA-workflow/actions/workflows/pages.yml/badge.svg)](https://github.com/JonasHope/CA-workflow/actions/workflows/pages.yml)
 
 ## Languages used
 - HTML
