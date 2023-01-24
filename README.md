@@ -2,6 +2,8 @@
 
 https://jonashope.github.io/CA-workflow/
 
+[![e2e testing](https://github.com/JonasHope/CA-workflow/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/JonasHope/CA-workflow/actions/workflows/e2e-test.yml)
+
 ## Languages used
 - HTML
 - CSS / SASS
