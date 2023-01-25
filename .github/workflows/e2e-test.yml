@@ -1,0 +1,21 @@
+# runs e2e testing with cypress for login and logout function
+
+name: e2e testing
+
+on:
+  pull_request:
+  workflow_dispatch:
+  
+jobs: 
+  run-e2e-tests:
+    name: Run e2e test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+        
+      - name: Cypress tests
+        uses: cypress-io/github-action@v4
+        with:
+          browser: electron
+          start: npm run test
